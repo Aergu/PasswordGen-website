@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="SV">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lösenordsgenerator</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script defer src="script.js"></script> <!-- defer kommandot gör så att själva websidan laddas upp utan att det stoppas vid script delen. Om defer inte fanns, då skulle den bara läsa in websidan tills defer och sen sluta, och inte läsa in innehållet på din body tag.-->
+</head>
+<body>
+    <h1>Lösenordsgenerator</h1>
+    <p> Hej, och välkommen till denna websida, som vill lösa ett förekommande problem med säkerhet på internet, vilket är lösenord! 
+        Väldigt många personer brukar skapa lätta lösenord för internetkonton, men i den nuvarande samhället med massa datatrång från hackare som vill stjäla din internetdata, 
+    så är det högst rekommenderat att du skapar ett starkt lösenord så du inte löper risk för att din data blir stulen. <br>
+Nederst så finns det en länk till en websida som heter haveibeenpwned.com, vilket kan identifera om data från ditt emailkonto har blivit stulen eller inte. 
+Gärna att du använder den först för att se om ditt emailkonto är säker eller inte. 
+Oavsett, så har jag skapat ett lösenordsgenerator, som kan förse dig med ett starkt lösenord. Hoppas att det hjälper dig med att minska risken för dataintrång! </p> 
+
+    <a href="https://haveibeenpwned.com/">HaveIbeenPwned.com</a> <br>
+<br> 
+<div class="container">
+    <div class="display">
+        <input type="text" id="generatedpassword" placeholder="Password"> <!-- button onclick, refererar till createPassword och copyPassword funktionen i script.js.-->
+        <button onclick="createPassword()">Generera ett lösenord</button> 
+        <button onclick="copyPassword()">Kopiera lösenordet</button>
+    </div>
+</div>
+</body>
+</html>

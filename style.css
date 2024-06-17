@@ -1,0 +1,18 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; /* Centrerar själva textinnehållet och lägger till en font för att snygga upp texten. */  
+}
+
+.container{
+    border-radius: 5px; /* rundar till textlådan*/
+}
+
+ p{
+    background-color: lightskyblue;
+ }
+
+a{
+    background-color: white; /* Gör själva bakgrunden på länken vit.*/
+    padding: 5px 5px; /* Lägger till lite extra utrymme på kanterna.*/
+}
