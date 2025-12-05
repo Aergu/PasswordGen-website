@@ -42,6 +42,14 @@ body {
     vertical-align: middle;
 }
 
+.spotlight .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+
 
 ol, ul {
 	list-style: none;
@@ -4123,5 +4131,6 @@ input, select, textarea {
 					}
 
 	}
+
 
 
