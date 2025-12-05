@@ -33,6 +33,16 @@ body {
 	line-height: 1;
 }
 
+.menu-icon {
+    width: 24px;       
+    height: 24px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-right: 6px; 
+    vertical-align: middle;
+}
+
+
 ol, ul {
 	list-style: none;
 }
@@ -4109,3 +4119,4 @@ input, select, textarea {
 					}
 
 	}
+
